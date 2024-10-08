@@ -7,6 +7,10 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import GuestLayout from './pages/layouts/GuestLayout'
 import DashboardLayout from './pages/layouts/DashboardLayout'
+import Patient from './pages/Patient'
+import Patients from './pages/Patients'
+import Reports from './pages/Reports'
+import Appointments from './pages/Appointments'
 
 const router = createBrowserRouter([
   {
@@ -16,6 +20,22 @@ const router = createBrowserRouter([
       {
         path: '/home',
         element: <Home />
+      },
+      {
+        path: '/patients',
+        element: <Patients />
+      },
+      {
+        path: '/reports',
+        element: <Reports />
+      },
+      {
+        path: '/appointments',
+        element: <Appointments />
+      },
+      {
+        path: '/patient/:id',
+        element: <Patient />
       }
     ]
   },

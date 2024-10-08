@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Home = () => {
+const Patients = () => {
     return ( 
         <>
         <div class="px-4 sm:px-0">
-            <h3 class="text-base font-semibold leading-7 text-gray-900">Home</h3>
+            <h3 class="text-base font-semibold leading-7 text-gray-900">Patients</h3>
             <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500">Personal details and application.</p>
         </div>
         <div class="overflow-x-auto">
@@ -43,4 +43,4 @@ const Home = () => {
      );
 }
 
-export default Home;
+export default Patients;
