@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Patients = () => {
+
     return ( 
         <>
         <div class="px-4 sm:px-0">
